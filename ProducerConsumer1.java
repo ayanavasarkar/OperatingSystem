@@ -84,6 +84,7 @@ class Consumer implements Runnable
         Thread consumerThread= new Thread (this);
         consumerThread.start();
     }
+    
     public void run()
     {
         int returnval;
